@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="MPokket.APITests.CreateData">
+        <methods>
+          <include name="CreateEntry"/>
+        </methods>
+      </class> <!-- MPokket.APITests.CreateData -->
+      <class name="MPokket.APITests.DeleteData">
+        <methods>
+          <include name="DeleteEmployeeData"/>
+        </methods>
+      </class> <!-- MPokket.APITests.DeleteData -->
+      <class name="MPokket.APITests.GetData">
+        <methods>
+          <include name="GetEmployeeData"/>
+        </methods>
+      </class> <!-- MPokket.APITests.GetData -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

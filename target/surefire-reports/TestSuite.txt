@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 11.322 s <<< FAILURE! - in TestSuite
+MPokket.APITests.CreateData.CreateEntry  Time elapsed: 6.059 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <405>.
+
+	at MPokket.APITests.CreateData.CreateEntry(CreateData.java:17)
+
+MPokket.APITests.DeleteData.DeleteEmployeeData  Time elapsed: 1.049 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <429>.
+
+	at MPokket.APITests.DeleteData.DeleteEmployeeData(DeleteData.java:16)
+
+MPokket.APITests.GetData.GetEmployeeData  Time elapsed: 1.013 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <429>.
+
+	at MPokket.APITests.GetData.GetEmployeeData(GetData.java:16)
+

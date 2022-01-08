@@ -1,0 +1,5 @@
+MPokket\APITests\TearDown.class
+MPokket\APITests\Setup.class
+MPokket\APITests\CreateData.class
+MPokket\APITests\GetData.class
+MPokket\APITests\DeleteData.class
